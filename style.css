@@ -1,0 +1,60 @@
+*{
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
+}
+
+Body{
+    Padding: 10px;
+    Background-color: white;
+}
+
+Header{
+    Height: 20px;
+    Width: 1200px;
+    Margin: auto;
+    Background-color: magenta;
+}
+
+main{
+    Width: 1200px;
+    Margin: auto;
+}
+
+.sezione1{
+    Height: 200px;
+    Background-color: ocra;
+    Margin-top: 10px
+}
+
+.wrap{
+    Padding: 5 px;
+    Background-color: blue;
+}
+
+Nav{ 
+    Height: 20px;
+    Width: 100% ;
+    Margin: 10px;
+    Background-color: lightblue;
+}
+
+Aside{
+    Float: left;
+    Width: 20%;
+    Height: 150px;
+    Background-color: lightblue;
+}
+
+.central{
+    Width: 45%;
+    Height: 150px;
+    Margin: 0 10px 0 10px;
+    Background-color: lightblue;
+}
+
+Footer{
+    Height: 10px;
+    Margin-top: 5px;
+    Background-color: purple;
+}
