@@ -5,12 +5,12 @@
 }
 
 Body{
-    Padding: 10px;
+    Padding: 20px;
     Background-color: white;
 }
 
 Header{
-    Height: 20px;
+    Height: 100px;
     Width: 1200px;
     Margin: auto;
     Background-color: magenta;
@@ -22,39 +22,53 @@ main{
 }
 
 .sezione1{
-    Height: 200px;
-    Background-color: ocra;
-    Margin-top: 10px
+    Height: 500px;
+    Background-color: rgb(224, 231, 84);
+    Margin-top: 20px;
 }
 
 .wrap{
-    Padding: 5 px;
-    Background-color: blue;
+    width: 100%;
+    Padding: 20px 0 20px 0;
+    Background-color: rgb(19, 81, 225);
+    content: "";
+    display: table;
+    clear: both;
 }
 
 Nav{ 
-    Height: 20px;
-    Width: 100% ;
-    Margin: 10px;
+    Height: 65px;
+    Width: 100%;
+    margin-top: 20px;
     Background-color: lightblue;
 }
 
-Aside{
-    Float: left;
+Aside:first-child{
+    float: left;
     Width: 20%;
-    Height: 150px;
+    Height: 500px;
+    Background-color: lightblue;
+}
+
+Aside:last-child{
+    float: right;
+    Width: 20%;
+    Height: 500px;
     Background-color: lightblue;
 }
 
 .central{
-    Width: 45%;
-    Height: 150px;
-    Margin: 0 10px 0 10px;
+    float: left;
+    Width: 56%;
+    Height: 500px;
+    Margin: 0 20px 0 20px;
     Background-color: lightblue;
 }
 
 Footer{
-    Height: 10px;
+    width: 1200px;
+    Height: 45px;
+    margin: auto;
     Margin-top: 5px;
     Background-color: purple;
 }
